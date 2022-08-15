@@ -1,0 +1,89 @@
+{
+	"info": {
+		"_postman_id": "427bc510-0e32-4cb4-a7a2-7d0510318d4c",
+		"name": "Chat-App Testing",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "21578812"
+	},
+	"item": [
+		{
+			"name": "Rooms",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "{{url}}rooms",
+					"host": [
+						"{{url}}rooms"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "CreateUser",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "name",
+							"value": "Sameer",
+							"type": "text"
+						},
+						{
+							"key": "email",
+							"value": "sameer@gmail.com",
+							"type": "text"
+						},
+						{
+							"key": "password",
+							"value": "sameer",
+							"type": "text"
+						},
+						{
+							"key": "picture",
+							"type": "file",
+							"src": "/C:/Users/DELL/Downloads/zoro.png"
+						}
+					]
+				},
+				"url": {
+					"raw": "{{url}}users",
+					"host": [
+						"{{url}}users"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "LoginUser",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \r\n\"email\":\"Ahmad@gmail.com\",\r\n\"password\":\"ahmad\"\r\n\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "{{url}}users/login",
+					"host": [
+						"{{url}}users"
+					],
+					"path": [
+						"login"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}

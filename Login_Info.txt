@@ -1,0 +1,36 @@
+Logins: 
+
+User1: 
+Ahmad
+Ahmad@gmail.com
+ahmad
+
+User2:
+Bilal
+Bilal@gmail.com
+bilal
+
+User3:
+Adbul Rehman
+Abdul@gmail.com
+abdul
+
+User4:
+Test Employee
+martin@gmail.com
+martin
+
+User4:
+Test Employee1
+test1@gmail.com
+test1
+
+User5:
+Test Manager
+manager@gmail.com
+manager
+
+User6:
+Test Manager1
+manager1@gmail.com
+manager1
